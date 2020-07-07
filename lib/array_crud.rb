@@ -1,17 +1,17 @@
 def create_an_empty_array
- my []
+ my_array = []
 end
 
 def create_an_array
-  ["here", "are", "four", "elements"]
+ my_array ["here", "are", "four", "elements"]
 end
 
 def add_element_to_end_of_array(array, element)
-  << "sir"
+ my_array << "sir"
 end
 
 def add_element_to_start_of_array(array, element)
-  .unshift("Pleasesir")
+  my_array.unshift("Pleasesir")
 end
 
 def remove_element_from_end_of_array(array)
